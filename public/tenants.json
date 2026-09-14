@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "adminPin": "2026",
+  "default": {
+    "hostname": "default",
+    "name": "PulpoCRM",
+    "tagline": "Gestión Comercial para PYMEs",
+    "logoText": "PulpoCRM",
+    "primaryColor": "#D4A824",
+    "primaryColorLight": "#E8C545",
+    "visibleModules": [
+      "dashboard",
+      "pipeline",
+      "projects",
+      "accounts",
+      "contacts",
+      "activities",
+      "campaigns",
+      "settings"
+    ],
+    "useDemoData": true,
+    "isActive": true,
+    "expiresAt": null,
+    "monthlyPrice": 0
+  },
+  "tenants": [
+    {
+      "hostname": "constructora-andes.pulpocrm.cl",
+      "name": "Constructora Los Andes",
+      "tagline": "CRM de Ventas",
+      "logoText": "Los Andes",
+      "primaryColor": "#D4A824",
+      "primaryColorLight": "#E8C545",
+      "visibleModules": [
+        "dashboard",
+        "pipeline",
+        "projects",
+        "accounts",
+        "contacts",
+        "activities",
+        "campaigns",
+        "settings"
+      ],
+      "useDemoData": false,
+      "contactEmail": "ventas@constructoraandes.cl",
+      "isActive": true,
+      "expiresAt": "2026-10-08",
+      "monthlyPrice": 15000
+    },
+    {
+      "hostname": "demo.pulpocrm.cl",
+      "name": "Demo Cliente",
+      "tagline": "CRM de Ventas",
+      "logoText": "DEMO",
+      "primaryColor": "#3B82F6",
+      "primaryColorLight": "#60A5FA",
+      "visibleModules": [
+        "dashboard",
+        "pipeline",
+        "projects",
+        "accounts",
+        "contacts",
+        "activities",
+        "campaigns",
+        "settings"
+      ],
+      "useDemoData": true,
+      "contactEmail": "demo@pulpocrm.cl",
+      "isActive": true,
+      "expiresAt": "2026-10-08",
+      "monthlyPrice": 15000
+    },
+    {
+      "hostname": "localhost",
+      "name": "PulpoCRM Local",
+      "tagline": "Desarrollo",
+      "logoText": "LOCAL",
+      "primaryColor": "#D4A824",
+      "primaryColorLight": "#E8C545",
+      "visibleModules": [
+        "dashboard",
+        "pipeline",
+        "projects",
+        "accounts",
+        "contacts",
+        "activities",
+        "campaigns",
+        "settings"
+      ],
+      "useDemoData": true,
+      "isActive": true,
+      "expiresAt": null,
+      "monthlyPrice": 0
+    },
+    {
+      "hostname": "localhost:5173",
+      "name": "PulpoCRM Dev",
+      "tagline": "Desarrollo",
+      "logoText": "DEV",
+      "primaryColor": "#D4A824",
+      "primaryColorLight": "#E8C545",
+      "visibleModules": [
+        "dashboard",
+        "pipeline",
+        "projects",
+        "accounts",
+        "contacts",
+        "activities",
+        "campaigns",
+        "settings"
+      ],
+      "useDemoData": true,
+      "isActive": true,
+      "expiresAt": null,
+      "monthlyPrice": 0
+    },
+    {
+      "hostname": "suspendido-demo.pulpocrm.cl",
+      "name": "Cliente Suspendido (Demo)",
+      "tagline": "Ejemplo de corte",
+      "logoText": "SUSP",
+      "primaryColor": "#EF4444",
+      "primaryColorLight": "#F87171",
+      "visibleModules": [
+        "dashboard",
+        "projects",
+        "accounts",
+        "contacts",
+        "activities",
+        "campaigns"
+      ],
+      "useDemoData": false,
+      "contactEmail": "admin@pulpocrm.cl",
+      "isActive": false,
+      "expiresAt": "2026-10-08",
+      "monthlyPrice": 15000
+    },
+    {
+      "hostname": "vencido-demo.pulpocrm.cl",
+      "name": "Cliente Vencido (Demo)",
+      "tagline": "Ejemplo de vencimiento",
+      "logoText": "VENC",
+      "primaryColor": "#F59E0B",
+      "primaryColorLight": "#FBBF24",
+      "visibleModules": [
+        "dashboard",
+        "projects",
+        "accounts",
+        "contacts",
+        "activities",
+        "campaigns"
+      ],
+      "useDemoData": false,
+      "contactEmail": "admin@pulpocrm.cl",
+      "isActive": true,
+      "expiresAt": "2026-09-07",
+      "monthlyPrice": 15000
+    }
+  ]
+}
