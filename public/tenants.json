@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "tenants": [
+    {
+      "hostname": "constructora-andes.pulpocrm.cl",
+      "name": "Constructora Los Andes",
+      "tagline": "CRM de Ventas",
+      "logoText": "Los Andes",
+      "primaryColor": "#D4A824",
+      "primaryColorLight": "#E8C545",
+      "visibleModules": [
+        "dashboard",
+        "pipeline",
+        "projects",
+        "accounts",
+        "contacts",
+        "activities",
+        "campaigns",
+        "settings"
+      ],
+      "useDemoData": false,
+      "contactEmail": "ventas@constructoraandes.cl",
+      "isActive": true,
+      "expiresAt": "2026-10-08",
+      "monthlyPrice": 15000
+    },
+    {
+      "hostname": "demo.pulpocrm.cl",
+      "name": "Demo Cliente",
+      "tagline": "CRM de Ventas",
+      "logoText": "DEMO",
+      "primaryColor": "#3B82F6",
+      "primaryColorLight": "#60A5FA",
+      "visibleModules": [
+        "dashboard",
+        "pipeline",
+        "projects",
+        "accounts",
+        "contacts",
+        "activities",
+        "campaigns",
+        "settings"
+      ],
+      "useDemoData": true,
+      "contactEmail": "demo@pulpocrm.cl",
+      "isActive": true,
+      "expiresAt": "2026-10-08",
+      "monthlyPrice": 15000
+    },
+    {
+      "hostname": "localhost",
+      "name": "PulpoCRM Local",
+      "tagline": "Desarrollo",
+      "logoText": "LOCAL",
+      "primaryColor": "#D4A824",
+      "primaryColorLight": "#E8C545",
+      "visibleModules": [
+        "dashboard",
+        "pipeline",
+        "projects",
+        "accounts",
+        "contacts",
+        "activities",
+        "campaigns",
+        "settings"
+      ],
+      "useDemoData": true,
+      "isActive": true,
+      "expiresAt": null,
+      "monthlyPrice": 0
+    },
+    {
+      "hostname": "localhost:5173",
+      "name": "PulpoCRM Dev",
+      "tagline": "Desarrollo",
+      "logoText": "DEV",
+      "primaryColor": "#D4A824",
+      "primaryColorLight": "#E8C545",
+      "visibleModules": [
+        "dashboard",
+        "pipeline",
+        "projects",
+        "accounts",
+        "contacts",
+        "activities",
+        "campaigns",
+        "settings"
+      ],
+      "useDemoData": true,
+      "isActive": true,
+      "expiresAt": null,
+      "monthlyPrice": 0
+    },
+    {
+      "hostname": "suspendido-demo.pulpocrm.cl",
+      "name": "Cliente Suspendido (Demo)",
+      "tagline": "Ejemplo de corte",
+      "logoText": "SUSP",
+      "primaryColor": "#EF4444",
+      "primaryColorLight": "#F87171",
+      "visibleModules": [
+        "dashboard",
+        "projects",
+        "accounts",
+        "contacts",
+        "activities",
+        "campaigns"
+      ],
+      "useDemoData": false,
+      "contactEmail": "admin@pulpocrm.cl",
+      "isActive": false,
+      "expiresAt": "2026-10-08",
+      "monthlyPrice": 15000
+    },
+    {
+      "hostname": "vencido-demo.pulpocrm.cl",
+      "name": "Cliente Vencido (Demo)",
+      "tagline": "Ejemplo de vencimiento",
+      "logoText": "VENC",
+      "primaryColor": "#F59E0B",
+      "primaryColorLight": "#FBBF24",
+      "visibleModules": [
+        "dashboard",
+        "projects",
+        "accounts",
+        "contacts",
+        "activities",
+        "campaigns"
+      ],
+      "useDemoData": false,
+      "contactEmail": "admin@pulpocrm.cl",
+      "isActive": true,
+      "expiresAt": "2026-09-07",
+      "monthlyPrice": 15000
+    },
+    {
+      "hostname": "ingefix.pulpocrm.cl",
+      "name": "ingefix",
+      "tagline": "Gestión Comercial",
+      "logoText": "",
+      "primaryColor": "#D4A824",
+      "primaryColorLight": "#1e3ac8",
+      "visibleModules": [
+        "dashboard",
+        "pipeline",
+        "projects",
+        "accounts",
+        "contacts",
+        "activities",
+        "campaigns",
+        "settings"
+      ],
+      "useDemoData": false,
+      "isActive": true,
+      "expiresAt": "2027-11-13",
+      "monthlyPrice": 15000,
+      "logoBase64": "data:image/png;base64,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"
+    }
+  ],
+  "default": {
+    "hostname": "default",
+    "name": "PulpoCRM",
+    "tagline": "Gestión Comercial para PYMEs",
+    "logoText": "PulpoCRM",
+    "primaryColor": "#D4A824",
+    "primaryColorLight": "#E8C545",
+    "visibleModules": [
+      "dashboard",
+      "pipeline",
+      "projects",
+      "accounts",
+      "contacts",
+      "activities",
+      "campaigns",
+      "settings"
+    ],
+    "useDemoData": true,
+    "isActive": true,
+    "expiresAt": null,
+    "monthlyPrice": 0
+  }
+}
